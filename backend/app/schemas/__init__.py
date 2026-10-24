@@ -1,0 +1,61 @@
+from backend.app.schemas.auth import UserRegister, UserLogin, FaceLoginRequest, FaceEnrollRequest, TokenResponse
+from backend.app.schemas.user import UserOut, StudentProfileOut, StudentProfileBase
+from backend.app.schemas.academic import SubjectCreate, SubjectOut, MarkCreate, MarkOut, AssignmentCreate, AssignmentUpdate, AssignmentOut
+from backend.app.schemas.session import StudySessionCreate, StudySessionOut, SessionMetricOut, PostureUpdate, FocusUpdate
+from backend.app.schemas.hardware import ESP32Command, HardwareStateResponse
+from backend.app.schemas.syllabus import SyllabusUploadTextRequest, SyllabusRoadmapOut, ModuleRoadmapOut, TopicOut
+from backend.app.schemas.ai import (
+    ResourceFinderResponse,
+    RevisionRequest,
+    RevisionResponse,
+    QuizGenerateRequest,
+    QuizGeneratedResponse,
+    QuizSubmitRequest,
+    QuizSubmissionResult,
+    StudyHealthResponse,
+    WeaknessAnalysisReport,
+    StudyMethodRequest,
+    StudyMethodRecommendation,
+    ComprehensiveCoachReport,
+)
+
+__all__ = [
+    "UserRegister",
+    "UserLogin",
+    "FaceLoginRequest",
+    "FaceEnrollRequest",
+    "TokenResponse",
+    "UserOut",
+    "StudentProfileOut",
+    "StudentProfileBase",
+    "SubjectCreate",
+    "SubjectOut",
+    "MarkCreate",
+    "MarkOut",
+    "AssignmentCreate",
+    "AssignmentUpdate",
+    "AssignmentOut",
+    "StudySessionCreate",
+    "StudySessionOut",
+    "SessionMetricOut",
+    "PostureUpdate",
+    "FocusUpdate",
+    "ESP32Command",
+    "HardwareStateResponse",
+    "SyllabusUploadTextRequest",
+    "SyllabusRoadmapOut",
+    "ModuleRoadmapOut",
+    "TopicOut",
+    "ResourceFinderResponse",
+    "RevisionRequest",
+    "RevisionResponse",
+    "QuizGenerateRequest",
+    "QuizGeneratedResponse",
+    "QuizSubmitRequest",
+    "QuizSubmissionResult",
+    "StudyHealthResponse",
+    "WeaknessAnalysisReport",
+    "StudyMethodRequest",
+    "StudyMethodRecommendation",
+    "ComprehensiveCoachReport",
+]
